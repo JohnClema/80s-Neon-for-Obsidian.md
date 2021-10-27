@@ -404,7 +404,6 @@ button.mod-warning {
   * simply remove the `/*` below a subsection to enable it **/
 
 /* 6.1. Pentile effect (chunky pixels) */
-/* DELETE THIS LINE TO ENABLE
 .app-container::before {
   content: " ";
   display: block;
@@ -420,7 +419,6 @@ button.mod-warning {
 }
 
 /* 6.2. Screen flicker */
-/* DELETE THIS LINE TO ENABLE
 .app-container::after {
   content: " ";
   display: block;
@@ -460,7 +458,6 @@ button.mod-warning {
 }
 
 /* 6.3. Text blur effect */
-/* DELETE THIS LINE TO ENABLE
 .app-container {
   text-shadow: 0.08084290417898504px 0 1px rgba(0,30,255,0.5), -0.08084290417898504px 0 1px rgba(255,0,80,0.3), 0 0 3px;
   animation: textShadow 1.6s infinite;
